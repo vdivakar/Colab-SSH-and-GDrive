@@ -15,8 +15,10 @@ Should look like `$ ./ngrok authtoken ZT64bWYnXsdTAdfdassJej42auAQqKqZHn2Sh4g2sf
 <br>By default, you will be inside a temporary space and its content will be deleted once your Colab session ends. If you want to save your work, you should explicitly save your changes in the mounted google drive.
 <br>Your Google Drive files will be present in `/content/gdrive/My Drive/` <br>
 
+###### Bonus: You can also run a JupyterLab instance on top of it. See the references below.
 
 ![Screenshot](https://github.com/vdivakar/Colab-SSH-and-GDrive/blob/master/Terminal_img.png)
+
 
 
 
