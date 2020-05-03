@@ -8,11 +8,13 @@ Should look like `$ ./ngrok authtoken ZT64bWYnXsdTAdfdassJej42auAQqKqZHn2Sh4g2sf
 2. Get the public key of your local machine. <br>
 `$ ssh-keygen`<br>
 `$ cat .ssh/id_rsa.pub`
-3. Go to your colab notebook. Copy the template provided above (*ssh_colab.ipynb*).
-4. Run the colab notebook. Connect your Google Drive. When prompted, enter the authtoken obtained in Step1. Lastly, it will ask the public key of your local machine obtained in Step2.
+3. Go to your colab notebook. Copy the content from template provided above (*ssh_colab.ipynb*).
+4. Execute the colab notebook. Connect your Google Drive. When prompted, enter the authtoken obtained in Step1. Lastly, it will ask the public key of your local machine obtained in Step2.
 5. Now you should get output something like `ssh root@0.tcp.ngrok.io -p 12**6`. The port will be different for your case. Go to your local machine and run this ssh command. Done!
 
+<br>By default, you will be inside a temporary space and it's content will be deleted once your Colab session ends. If you want to save your work, you should explicitly save your changes in the mounted google drive.
 <br>Your Google Drive files will be present in `/content/gdrive/My Drive/` <br>
+
 
 ![Screenshot](https://github.com/vdivakar/Colab-SSH-and-GDrive/blob/master/Terminal_img.png)
 
