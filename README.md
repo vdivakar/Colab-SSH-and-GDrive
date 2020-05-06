@@ -15,12 +15,21 @@ Should look like `$ ./ngrok authtoken ZT64bWYnXsdTAdfdassJej42auAQqKqZHn2Sh4g2sf
 <br>By default, you will be inside a temporary space and its content will be deleted once your Colab session ends. If you want to save your work, you should explicitly save your changes in the mounted google drive.
 <br>Your Google Drive files will be present in `/content/gdrive/My Drive/` <br>
 
-###### Bonus: You can also run a JupyterLab instance on top of it. See the references below.
 
 ![Screenshot](https://github.com/vdivakar/Colab-SSH-and-GDrive/blob/master/Terminal_img.png)
 
+<br>
 
-
+### Bonus: Steps for running a JupyterLab instance on top of it:<br>
+1. Execute the following commands:<br>
+```apt-get install tmux && pip install jupyter lab``` <br>
+```tmux```<br>
+`jupyter lab --ip 0.0.0.0 --port 56784`
+2. Split the same terminal: <kbd>Ctrl</kbd>+<kbd>b</kbd> & <kbd>Shift</kbd>+<kbd>"</kbd>
+3. Execute `ssh -R 80:localhost:56784 something@ssh.localhost.run` <br>
+You should get an output like this:<br>
+`Connect to http://something-caa4e22c.localhost.run or https://something-caa4e22c.localhost.run`
+Connect to this url in your PC browser. Done!
 
 <br><br><br>
 References:<br>
