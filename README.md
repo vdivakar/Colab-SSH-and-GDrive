@@ -16,7 +16,7 @@ Should look like `$ ./ngrok authtoken ZT64bWYnXsdTAdfdassJej42auAQqKqZHn2Sh4g2sf
 <br>Your Google Drive files will be present in `/content/gdrive/My Drive/` <br>
 
 
-![Screenshot](https://github.com/vdivakar/Colab-SSH-and-GDrive/blob/master/Terminal_img.png)
+![Screenshot](https://github.com/vdivakar/Colab-SSH-and-GDrive/blob/master/Images/Terminal_img.png)
 
 <br>
 
@@ -30,7 +30,13 @@ Should look like `$ ./ngrok authtoken ZT64bWYnXsdTAdfdassJej42auAQqKqZHn2Sh4g2sf
 You should get an output like this:<br>
 `Connect to http://something-caa4e22c.localhost.run or https://something-caa4e22c.localhost.run`
 Connect to this url in your PC browser. Done!
+<br>
 
+![Screenshot](https://github.com/vdivakar/Colab-SSH-and-GDrive/blob/master/Images/Terminal_2.png)
+<br>
+![Screenshot](https://github.com/vdivakar/Colab-SSH-and-GDrive/blob/master/Images/Terminal_3.png)
+<br>
+![Screenshot](https://github.com/vdivakar/Colab-SSH-and-GDrive/blob/master/Images/Jupyter.png)
 <br><br><br>
 References:<br>
 	1. https://imadelhanafi.com/posts/google_colal_server/<br>
